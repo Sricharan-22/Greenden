@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+</head>
+<body>
+        <!--navbar-->
+        <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10">
+            <h1 class="text-2xl">GREENDEN</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li>
+                    <a  class="hover:underline hover:text-black" href="#">Home</a>
+                </li>
+                <li>
+                    <a  class="hover:underline hover:text-black" href="#">Product</a>
+                </li>
+                <li>
+                    <a   class="hover:underline hover:text-black" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Our products-->
+        <section class="text-center">
+            <h2 class="text-3xl font-bold pt-10">Our Products</h2>
+            <input type="text" placeholder="Search for a Product" class="border border-black w-5/6 p-2 mt-5">
+            <div class="grid grid-cols-4 mt-10">
+                <div>
+                    <img src="product pic 1.png" alt=" plant product picture 1" class="w-60 h-70 inline hover:shadow-xl transform hover:-translate-y-4"/>
+                    <p>Money plant</p>
+                    <p>$45</p>
+                </div>
+                <div>
+                    <img src="product pic 2.png" alt="plant product picture 2" class="w-60 h-70 inline hover:shadow-xl transform hover:-translate-y-4"/>
+                    <p>Tall plant</p>
+                    <p>$72</p>
+                </div>
+                <div>
+                    <img src="product pic 3.png" alt="plant product picture 3" class="w-60 h-70 inline hover:shadow-2xl transform hover:-translate-y-4"/>
+                    <p>Flat plant</p>
+                    <p>$88</p>
+                </div>
+                <div>
+                    <img src="product pic 4.png" alt="plant product picture 4" class="w-60 h-70 inline hover:shadow-2xl transform hover:-translate-y-4"/>
+                    <p>Cactus plant</p>
+                    <p>$76</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 mt-10">
+                <div>
+                  <img src="product pic 5.png" alt="plant product  picture 5" class="w-60 h-70 inline hover:shadow-2xl transform hover:-translate-y-4"/>
+                  <p> Rose plant</p>
+                  <p>$87</p>
+                </div>
+                <div>
+                    <img src="product pic 6.png" alt="plant product picture 6" class="w-60 h-70 inline hover:shadow-2xl transform hover:-translate-y-4"/>
+                    <p>Bigge leaf plant</p>
+                    <p>$77</p>
+                </div>
+                <div>
+                    <img src="product pic 7.png" alt="plant product picture 7" class="w-60 h-70 inline hover:shadow-2xl transform hover:-translate-y-4"/>
+                    <p>Double coloured plant</p>
+                    <p>$122</p>
+                </div>
+                <div>
+                    <img src="product pic 8.png" alt="plant product picture 8" class="w-60 h-70 inline hover:shadow-2xl transform hover:-translate-y-4"/>
+                    <p>Tapper plant</p>
+                    <p>$96</p>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+    <section>
+        <div class="bg-green-100 pb-10 pl-6 mt-4">
+          <h2 class="font-bold text-3xl pt-12 pb-4">Greenden</h2>
+          <p class="pb-4">The Standard chunk of plants sales since 2003 with high value and reputation</p>
+          <p >&copy;2021 Greenday.com</p>
+        </div>
+    </section>
+</body>
+</html>
